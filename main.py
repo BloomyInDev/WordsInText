@@ -8,7 +8,7 @@ def main():
     Just all the program
     """
     width = get_terminal_size()[0]
-    barlenght = width-45
+    barlenght = width-75
     try:
         nomfichier = input("Quel fichier ouvrir ? >> ")
     except KeyboardInterrupt:
@@ -36,7 +36,7 @@ def main():
         for doc in book.get_items_of_type(ebooklib.ITEM_DOCUMENT):
             length+=len(unidecode(doc.content.decode('utf8')))
         actuallength=0
-        barlenght=width-(len(str(length))*2+5)
+        barlenght=width-((len(str(length))*2)+38)
         for doc in book.get_items_of_type(ebooklib.ITEM_DOCUMENT):
             newstring=""
             passerchar = False
