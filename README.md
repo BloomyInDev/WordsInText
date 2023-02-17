@@ -25,6 +25,7 @@ Use Python or the compiled one
 ## Known issues
 
 * The extraction of text from an epub take more time than other type of files, the faster type of file is txt files.
+* This program is in french only (i've done it too fast to think of an english version)
 
 ## Issues and problems
 
